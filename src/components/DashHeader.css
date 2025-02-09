@@ -1,0 +1,62 @@
+.DashHeaderWrapper{
+    display: flex;
+    justify-content: space-between;
+    background-color: #000957;
+    padding-top:0px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 5px;
+    border-radius: 10px 10px 0px 0px;
+    color: white;
+}
+
+.DashHeaderLogoWrapper, .DashHeaderListWrapper{
+    display: flex;
+}
+
+.DashHeaderListWrapper ul{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+.DashHeaderListWrapper ul li{
+    margin-top: 20px;
+    list-style: none;
+}
+
+.DashHeaderListWrapper ul li button{
+    margin-top: -15px;
+    height: 46px;
+    width: 75px;
+    border-radius: 50px;
+    background-color: transparent;
+    border: 1px solid aliceblue ;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.DashHeaderListWrapper ul li button:hover{
+    background-color: aliceblue;
+    color: #000957;
+}
+
+.DashHeaderListWrapper ul li a{
+    border: 1px solid aliceblue;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    text-align: center;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+.DashHeaderListWrapper ul li a:hover{
+    background-color: aliceblue;
+    color: #000957;
+}

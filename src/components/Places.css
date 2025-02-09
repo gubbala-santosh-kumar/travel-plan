@@ -1,0 +1,17 @@
+.Placess-iframe{
+    border: none;
+    border-radius: 10px;
+    width: 99%;
+    height: 90vh;
+    border: none; 
+    overflow:scroll;
+    scrollbar-width: none; 
+}
+
+.Placess-iframe:hover{
+    box-shadow: 1px 1px 20px black;
+}
+
+iframe::-webkit-scrollbar {
+    display: none; 
+  }
